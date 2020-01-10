@@ -1,0 +1,20 @@
+{
+  "name": "electron-experiments",
+  "version": "1.0.0",
+  "description": "Experiments on the capabilities of an Electron application.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Simon Oulevay <npm@alphahydrae.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^12.0.0"
+  },
+  "devDependencies": {
+    "electron": "^7.1.8"
+  }
+}
