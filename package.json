@@ -4,7 +4,9 @@
   "description": "Experiments on the capabilities of an Electron application.",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "build": "node build.js",
+    "electron": "electron .",
+    "start": "npm run build && npm run electron"
   },
   "keywords": [
     "electron"
@@ -16,5 +18,12 @@
   },
   "devDependencies": {
     "electron": "^7.1.8"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15"
   }
 }
