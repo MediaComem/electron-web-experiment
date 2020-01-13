@@ -1,8 +1,9 @@
 {
-  "name": "electron-experiments",
+  "name": "electron-web-experiment",
   "version": "1.0.0",
   "description": "Experiments on the capabilities of an Electron application.",
   "main": "main.js",
+  "private": true,
   "scripts": {
     "build": "node build.js",
     "electron": "electron .",
